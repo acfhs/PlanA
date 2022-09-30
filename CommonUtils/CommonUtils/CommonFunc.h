@@ -22,5 +22,10 @@ auto String2T(const string& value)
 bool StringTWString(wstring& out_wstr, const string& string);
 
 
+bool StringTWString(wstring& out_wstr, const string& string)
+{
+	return true;
+}
+
 #endif
 
